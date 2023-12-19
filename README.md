@@ -9,4 +9,8 @@
 `GET /itembyid/{itemdId}`: Gibt ein einzelnes Elemnt zurück.
 **Parameter**: `itemId` - Einzigartige Id des Elements
 
- 
+`POST /createitem`: Erstellen eines neuen Elements
+
+`DELETE /deleteitem/{itemId}`: Löschen eines Elements
+
+`PUT /updateitem/{itemdId}`: Aktualisieren eines Elements
